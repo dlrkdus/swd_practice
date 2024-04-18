@@ -5,6 +5,9 @@ public class SpringIdol implements TalentCompetition {
 
 	public SpringIdol() {
 	}
+	public SpringIdol(Performer[] performers){
+		this.performers=performers;
+	}
 	
 	public Performer[] getPerformers() {
 		return performers;

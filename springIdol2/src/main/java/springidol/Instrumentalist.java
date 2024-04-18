@@ -6,6 +6,10 @@ public class Instrumentalist implements Performer {
 
 	public Instrumentalist() {
 	}
+	public Instrumentalist(String song, Instrument instrument){
+		this.song=song;
+		this.instrument=instrument;
+	}
 	
 	public void setSong(String song) {
 		this.song = song;

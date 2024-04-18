@@ -7,6 +7,11 @@ public class Song {
 	public Song() {
 	}
 
+	public Song(String title,String artist){
+		this.title=title;
+		this.artist=artist;
+	}
+
 	public void setTitle(String title) {
 		this.title = title;
 	}
