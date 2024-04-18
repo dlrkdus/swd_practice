@@ -52,5 +52,6 @@
 	<bean id="cymbal" class="springidol.Cymbal" />
 	<bean id="guitar" class="springidol.Guitar" />
 	<bean id="saxophone" class="springidol.Saxophone" />
+	<bean id="piano" class="springidol.Saxophone"/>
 
 </beans>
