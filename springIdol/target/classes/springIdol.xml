@@ -32,11 +32,14 @@
 
 	<bean id="hank" class="springidol.OneManBand">
 		<property name="instruments">
-			<props>
-				<prop key="GUITAR">STRUM STRUM STRUM</prop>
-				<prop key="CYMBAL">CRASH CRASH CRASH</prop>
-				<prop key="HARMONICA">HUM HUM HUM</prop>
-			</props>
+			<map>
+				<entry>
+					<key><value>HARMONICA</value></key>
+					<ref bean="harmonica"/>
+				</entry>
+				<entry key="SAXOPHONE" value-ref="saxophone"/>
+				<entry key="CYMBAL" value-ref="cymbal"/>
+			</map>
 		</property>
 	</bean>
 	
