@@ -90,5 +90,12 @@
 		<constructor-arg value="#{piano}"/>
 	</bean>
 
+	<!-- ==================================================================== -->
+	<!-- Encore -->
+	<!-- ==================================================================== -->
+	<bean id="encore" class="springidol.Encore">
+		<property name="performer" value="#{springIdol.performers[T(java.lang.Math).random()*springIdol.performers.length]}"/>
+	</bean>
+
 
 </beans>
