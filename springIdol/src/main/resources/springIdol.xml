@@ -13,6 +13,8 @@
 				<ref bean="duke" />
 				<ref bean="kenny" />
 				<ref bean="hank" />
+				<ref bean="lena"/>
+				<ref bean="suhyun"/>
 			</list>
 		</property>
 	</bean>
@@ -52,6 +54,41 @@
 	<bean id="cymbal" class="springidol.Cymbal" />
 	<bean id="guitar" class="springidol.Guitar" />
 	<bean id="saxophone" class="springidol.Saxophone" />
-	<bean id="piano" class="springidol.Saxophone"/>
+	<bean id="piano" class="springidol.Piano"/>
+
+	<!-- ==================================================================== -->
+	<!-- Song -->
+	<!-- ==================================================================== -->
+	<bean id="someone" class="springidol.Song">
+		<property name="title">
+			<value>Someone Like You</value>
+		</property>
+		<property name="artist">
+			<value>Adele</value>
+		</property>
+	</bean>
+
+	<bean id="pinkvenom" class="springidol.Song">
+		<property name="title">
+			<value>Pink Venom</value>
+		</property>
+		<property name="artist">
+			<value>Black Pink</value>
+		</property>
+	</bean>
+
+	<!-- ==================================================================== -->
+	<!-- Singer -->
+	<!-- ==================================================================== -->
+	<bean id="lena" class="springidol.Singer">
+		<constructor-arg value="Lena Park"/>
+		<constructor-arg ref="someone"/>
+	</bean>
+	<bean id="suhyun" class="springidol.Singer">
+		<constructor-arg value="Suhyun"/>
+		<constructor-arg value="#{lena.song}"/>
+		<constructor-arg value="#{piano}"/>
+	</bean>
+
 
 </beans>
