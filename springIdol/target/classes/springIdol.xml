@@ -27,7 +27,7 @@
 
 	<bean id="kenny" class="springidol.Instrumentalist">
 		<property name="song" value="Jingle Bells" />
-		<property name="instrument" ref="saxophone" />
+		<property name="instrument" ref="guitar" />
 	</bean>
 
 	<bean id="hank" class="springidol.OneManBand">
