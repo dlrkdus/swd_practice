@@ -6,30 +6,31 @@
   <component name="ChangeListManager">
     <list default="true" id="5bc85e9d-267b-440f-b523-129d99d22c67" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Cymbal.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Cymbal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Encore.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Encore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Harmonica.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Harmonica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Instrumentalist.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Instrumentalist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/OneManBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/OneManBand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Piano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/PoeticJuggler.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/PoeticJuggler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Singer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Song.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Sonnet29.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Sonnet29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Cymbal.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Cymbal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Encore.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Encore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Guitar.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Guitar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Harmonica.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Harmonica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Instrumentalist.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Instrumentalist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/OneManBand.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/OneManBand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Piano.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Piano.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/PoeticJuggler.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/PoeticJuggler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Singer.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Singer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Song.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Sonnet29.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/Sonnet29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/target/classes/springidol/annotation/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/Cymbal.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/Cymbal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/Piano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/Singer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/SpringIdol.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/SpringIdol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/src/main/resources/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/src/main/resources/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Cymbal.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Cymbal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Guitar.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Guitar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Harmonica.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Harmonica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Instrument.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Instrument.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Instrumentalist.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Instrumentalist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Juggler.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Juggler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/OneManBand.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/OneManBand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/PerformanceException.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/PerformanceException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Piano.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Piano.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/PoeticJuggler.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/PoeticJuggler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Saxophone.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Saxophone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Singer.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Singer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Song.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Song.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Sonnet29.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/Sonnet29.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/SpringIdol.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/SpringIdol.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/target/classes/springidol/SpringIdolMain_javaconf.class" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/target/classes/springidol/SpringIdolMain_javaconf.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +59,7 @@
   "keyToString": {
     "Application.SpringIdolMain.executor": "Run",
     "Application.SpringIdolMain_annotation.executor": "Run",
+    "Application.SpringIdolMain_javaconf.executor": "Run",
     "Application.SpringIdolMain_javaconf1.executor": "Run",
     "Application.SpringIdolMain_javaconf4.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -68,7 +70,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SpringIdolMain_annotation">
+  <component name="RunManager" selected="Application.SpringIdolMain_javaconf">
     <configuration name="SpringIdolMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springidol.main.SpringIdolMain" />
       <module name="springIdol" />
@@ -88,6 +90,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="springidol.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringIdolMain_javaconf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springidol.SpringIdolMain_javaconf" />
+      <module name="springIdol3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springidol.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,6 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringIdolMain_javaconf" />
         <item itemvalue="Application.SpringIdolMain_annotation" />
         <item itemvalue="Application.SpringIdolMain_javaconf4" />
         <item itemvalue="Application.SpringIdolMain_javaconf1" />

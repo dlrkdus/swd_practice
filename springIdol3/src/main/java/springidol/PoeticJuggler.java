@@ -1,9 +1,19 @@
 package springidol;
 
-public class PoeticJuggler extends Juggler {
+import org.springframework.beans.factory.BeanNameAware;
+
+public class PoeticJuggler extends Juggler implements BeanNameAware {
 	private Poem poem;
+	private String beanName;
 
 	public PoeticJuggler() { }
+
+	public void setBeanName(String beanName){
+		this.beanName=beanName;
+	}
+	public String getBeanName(){
+		return beanName;
+	}
 
 	public PoeticJuggler(Poem poem) {
 		super();

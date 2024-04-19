@@ -14,7 +14,7 @@ import org.springframework.core.env.Environment;
 
 @Configuration
 @ComponentScan
-// @PropertySource({"classpath:app.properties"})
+@PropertySource({"classpath:app.properties"})
 public class SpringConfig {	
 	@Autowired 
 	private Environment env;	    
@@ -42,7 +42,7 @@ public class SpringConfig {
 	@Bean		
 	public OneManBand hank() {
 		Map<String, Instrument> instr = new HashMap<String, Instrument>(); 
-		instr.put("GUITAR", guitar);
+		instr.put("PIANO", piano);
 		instr.put("CYMBAL", cymbal);
 		instr.put("HARMONICA", harmonica);
 		OneManBand omb = new OneManBand();		
@@ -57,6 +57,14 @@ public class SpringConfig {
 		song.setArtist("Adele");			 // "Sia" 로 변경  				
 		return song;
 	}
+
+	@Bean
+	public Song songForSuhyun() {
+		Song song = new Song();
+		song.setTitle(songForLena().getTitle());	 // "Chandelier" 로 변경
+		song.setArtist(songForLena().getArtist());			 // "Sia" 로 변경
+		return song;
+	}
 	
 	// @Value("${lena.name}")		// 외부 설정 property 이용
 	// private String lena_name;	
@@ -64,6 +72,12 @@ public class SpringConfig {
 	@Bean
 	public Singer lena() {		
 		return new Singer(env.getProperty("lena.name"), songForLena());
+		// return new Singer(lena_name, songForLena());
+	}
+
+	@Bean
+	public Singer suhyun() {
+		return new Singer(env.getProperty("suhyun.name"), songForSuhyun());
 		// return new Singer(lena_name, songForLena());
 	}
 	

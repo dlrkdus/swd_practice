@@ -1,8 +1,22 @@
 package springidol;
 
-public class Singer implements Performer {
+import org.springframework.beans.factory.BeanNameAware;
+
+public class Singer implements Performer, BeanNameAware {
 	private String name;
 	private Song song;
+
+	private String beanName;
+
+	@Override
+	public void setBeanName(String beanName){
+		this.beanName=beanName;
+	}
+
+	@Override
+	public String getBeanName(){
+		return beanName;
+	}
 
 	public Singer() {
 	}
