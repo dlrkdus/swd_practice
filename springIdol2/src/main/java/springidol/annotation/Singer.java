@@ -8,21 +8,31 @@ import org.springframework.stereotype.Component;
 @Component("lena")
 public class Singer implements Performer {
 	public String name;
+
 	public Song song;
-	@Autowired
-	@Qualifier("piano")
+
 	public Instrument instrument;
 	
 	public Singer() {}
-	public Singer( @Value("Lena Kim") String name, @Autowired @Qualifier("someone") Song song) {
+	@Autowired
+	public Singer(@Value("Lena Kim")String name,  @Qualifier("someone") Song song) {
 		this.name = name;
 		this.song = song;
 	}
-	@Autowired
 	public Singer(String name, Song song, Instrument instr) {
 		this.name = name;
 		this.song = song;
 		this.instrument = instr;
+	}
+	public void setName(String name){
+		this.name=name;
+	}
+
+	public void setSong(Song song){
+		this.song=song;
+	}
+	public void setInstrument(Instrument instrument){
+		this.instrument=instrument;
 	}
 	
 	public Song getSong() {

@@ -9,10 +9,19 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = "springidol.annotation")
 public class SpringConfig {
-    @Bean(name="suhyun")
+    @Autowired
+    private Singer lena;
+
+    @Autowired
+    private Piano piano;
+
+    @Bean
     public Singer singer(){
-        Song song =new Song( @Value("lena") )
-        return new Singer(name,song,@Value("#{piano}") instrument);
+        Singer singer=new Singer();
+        singer.setName("suhyun");
+        singer.setSong(lena.song);
+        singer.setInstrument(piano);
+        return singer;
     }
 
     @Bean(name="pinkvenom")
