@@ -1,17 +1,24 @@
 package springidol.annotation;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component("lena")
 public class Singer implements Performer {
-	private String name;
-	private Song song;
-	private Instrument instrument;
+	public String name;
+	public Song song;
+	@Autowired
+	@Qualifier("piano")
+	public Instrument instrument;
 	
 	public Singer() {}
-
-	public Singer(String name, Song song) {
+	public Singer( @Value("Lena Kim") String name, @Autowired @Qualifier("someone") Song song) {
 		this.name = name;
 		this.song = song;
 	}
-
+	@Autowired
 	public Singer(String name, Song song, Instrument instr) {
 		this.name = name;
 		this.song = song;

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springIdol" />
+        <module name="springIdol3" />
         <module name="springIdol2" />
       </profile>
     </annotationProcessing>
