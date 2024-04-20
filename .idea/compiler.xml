@@ -9,6 +9,7 @@
         <module name="springIdol" />
         <module name="springIdol3" />
         <module name="springIdol2" />
+        <module name="helloSpringIdol" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
