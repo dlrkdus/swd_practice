@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SpringIdol implements TalentCompetition {
-	@Autowired
+
 	private Performer[] performers;
 
 	private int stageSize;	
@@ -29,7 +29,7 @@ public class SpringIdol implements TalentCompetition {
 	public Performer[] getPerformers() {
 		return performers;
 	}
-
+	@Autowired
 	public void setPerformers(Performer[] performers) {
 		this.performers = performers;
 	}
@@ -52,7 +52,7 @@ public class SpringIdol implements TalentCompetition {
 			System.out.print("Performance #" + (i+1));
 			Performer performer = performers[i];
 			System.out.println("by " + performer.getBeanName());
-			performer.perform();
+			System.out.println(performer.perform());
 			System.out.println("-----------------------");
 		}
 	}

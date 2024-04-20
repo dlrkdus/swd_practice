@@ -4,6 +4,7 @@ import com.example.helloworld.domain.PerformRequest;
 import com.example.helloworld.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -13,7 +14,7 @@ import com.example.springidol.SpringIdol;
 
 @Controller
 public class HelloController {
-	
+
 	@Autowired
 	public HelloController(SpringIdol springIdol) {
 		springIdol.run();
@@ -25,7 +26,7 @@ public class HelloController {
 	public ModelAndView helloAndPerform1(@RequestParam(value="id", required=false) String name,
 										@RequestParam(value="requester", required=false) String requester) {
 		String greeting = helloService.getGreeting(requester);
-		if (name != null) greeting = greeting + name;
+		if (name != null) greeting = greeting + "I'm "+name;
 		String performance=helloService.makePerformance(name);
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("perform");
@@ -41,11 +42,19 @@ public class HelloController {
 	}
 
 	@RequestMapping("/performUsingComm")
-	public ModelAndView helloAndPerformUsingComm(PerformRequest request){
+	public String helloAndPerformUsingComm(PerformRequest request, Model model){
 		// PerformRequest 객체를 통해 id와 requester를 전송받음
 		String id = request.getId();
 		String requester = request.getRequester();
-		return helloAndPerform2(id,requester);
+
+		String greeting = helloService.getGreeting(requester);
+		if (id != null) greeting = greeting + "I'm "+id;
+		String performance=helloService.makePerformance(id);
+
+		model.addAttribute("greeting",greeting);
+		model.addAttribute("performance",performance);
+
+		return "perform"; //perform.jsp로 넘겨줌. 이때 Model도 함께 넘어감
 	}
 
 }
