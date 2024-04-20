@@ -22,13 +22,14 @@ public class HelloController {
 	private HelloService helloService;
 	
 	@RequestMapping("/hello.do")		// request handler method
-	public ModelAndView hello(			
-		@RequestParam(value="name", required=false) String name) {
+	public ModelAndView helloAndPerform1(@RequestParam(value="name", required=false) String name) {
 		String greeting = helloService.getGreeting();
 		if (name != null) greeting = greeting + name;
+		String performance=helloService.makePerformance(name);
 		ModelAndView mav = new ModelAndView();
-		mav.setViewName("hello");
+		mav.setViewName("perform");
 		mav.addObject("greeting", greeting);
+		mav.addObject("performance",performance);
 		return mav;
 	}
 
