@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bc85e9d-267b-440f-b523-129d99d22c67" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Cymbal.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Cymbal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Harmonica.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Harmonica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Instrumentalist.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Instrumentalist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Juggler.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Juggler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/OneManBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/OneManBand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Performer.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Performer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Piano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Poem.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Poem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/PoeticJuggler.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/PoeticJuggler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Saxophone.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Saxophone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Singer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Sonnet29.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Sonnet29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/helloworld/service/HelloService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
