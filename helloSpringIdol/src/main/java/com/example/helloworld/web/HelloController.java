@@ -1,7 +1,6 @@
 package com.example.helloworld.web;
 
-import java.util.Calendar;
-
+import com.example.helloworld.domain.PerformRequest;
 import com.example.helloworld.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -41,6 +40,12 @@ public class HelloController {
 		return helloAndPerform1(name,requester);
 	}
 
-
+	@RequestMapping("/performUsingComm")
+	public ModelAndView helloAndPerformUsingComm(PerformRequest request){
+		// PerformRequest 객체를 통해 id와 requester를 전송받음
+		String id = request.getId();
+		String requester = request.getRequester();
+		return helloAndPerform2(id,requester);
+	}
 
 }

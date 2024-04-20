@@ -9,5 +9,5 @@
 
  	<context:property-placeholder location="classpath:spring/app.properties" /> 
 	
-	<context:component-scan base-package="com.example.springidol" />
+	<context:component-scan base-package="com.example" />
 </beans>
