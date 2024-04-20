@@ -2,6 +2,7 @@ package com.example.helloworld.web;
 
 import java.util.Calendar;
 
+import com.example.helloworld.service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,12 +18,13 @@ public class HelloController {
 	public HelloController(SpringIdol springIdol) {
 		springIdol.run();
 	}
+	@Autowired
+	private HelloService helloService;
 	
 	@RequestMapping("/hello.do")		// request handler method
 	public ModelAndView hello(			
 		@RequestParam(value="name", required=false) String name) {
-		
-		String greeting = getGreeting();
+		String greeting = helloService.getGreeting();
 		if (name != null) greeting = greeting + name;
 		ModelAndView mav = new ModelAndView();
 		mav.setViewName("hello");
@@ -30,15 +32,5 @@ public class HelloController {
 		return mav;
 	}
 
-	public String getGreeting() {		// business method
-		int hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
-		if (hour >= 6 && hour <= 10) {
-			return "Good morning! ";
-		} else if (hour >= 12 && hour <= 15) {
-			return "Did you have lunch? ";
-		} else if (hour >= 18 && hour <= 24) {
-			return "Good evening! ";
-		}
-		return "Hello! ";
-	}
+
 }
