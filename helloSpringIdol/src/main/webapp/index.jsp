@@ -13,6 +13,7 @@
     <option value="hank">hank</option>
     <option value="duke">duke</option>
     <option value="lena">lena</option>
+    <option value="suhyun">suhyun</option>
     </select> <br>
     Your name: <input type="text" name="requester" /><br/>
     <input type="submit" value="전송"/>

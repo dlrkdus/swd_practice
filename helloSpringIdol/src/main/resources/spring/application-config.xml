@@ -10,4 +10,14 @@
  	<context:property-placeholder location="classpath:spring/app.properties" />
 
 	<context:component-scan base-package="com.example.springidol, com.example.helloworld.service" />
+
+	<bean id="someone" class="com.example.springidol.Song">
+		<property name="title" value="${lena.song.title}"/>
+		<property name="artist" value="${lena.song.artist}"/>
+	</bean>
+
+	<bean id="suhyun" class="com.example.springidol.Singer">
+		<property name="name" value="${suhyun.name}"/>
+		<property name="song" value="#{someone}"/>
+	</bean>
 </beans>
