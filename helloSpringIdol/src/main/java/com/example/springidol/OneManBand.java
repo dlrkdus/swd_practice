@@ -21,12 +21,14 @@ public class OneManBand implements Performer, BeanNameAware {
 	}
 
 	@Override
-	public void perform() throws PerformanceException {
+	public String perform() throws PerformanceException {
+		String perf=null;
 		for (String key : instruments.keySet()) {
-			System.out.print(key + ": ");
+			perf+=(key + ": ");
 			Instrument instrument = instruments.get(key);
-			instrument.play();
+			perf+=instrument.play();
 		}
+		return perf;
 	}
 
 	private String beanName;

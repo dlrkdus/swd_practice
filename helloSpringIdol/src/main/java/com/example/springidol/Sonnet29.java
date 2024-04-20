@@ -2,6 +2,8 @@ package com.example.springidol;
 
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+
 @Component
 public class Sonnet29 implements Poem {
 	private static String[] LINES = { "When, in disgrace with fortune and men's eyes,",
@@ -16,9 +18,11 @@ public class Sonnet29 implements Poem {
 	public Sonnet29() {
 	}
 
-	public void recite() {
+	public String recite() {
+		String poem=null;
 		for (int i = 0; i < LINES.length; i++) {
-			System.out.println(LINES[i]);
+			poem+=(LINES[i]+"/n");
 		}
+		return poem;
 	}
 }

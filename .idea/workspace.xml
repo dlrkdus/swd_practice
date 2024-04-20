@@ -6,8 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="5bc85e9d-267b-440f-b523-129d99d22c67" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Singer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Cymbal.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Cymbal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Harmonica.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Harmonica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Instrumentalist.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Instrumentalist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Juggler.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Juggler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/OneManBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/OneManBand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Performer.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Performer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Piano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Poem.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Poem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/PoeticJuggler.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/PoeticJuggler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Saxophone.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Saxophone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Singer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Sonnet29.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/springidol/Sonnet29.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,22 +44,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SpringIdolMain.executor": "Run",
-    "Application.SpringIdolMain_annotation.executor": "Run",
-    "Application.SpringIdolMain_hw1.executor": "Run",
-    "Application.SpringIdolMain_javaconf.executor": "Run",
-    "Application.SpringIdolMain_javaconf1.executor": "Run",
-    "Application.SpringIdolMain_javaconf4.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "openjdk-22",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SpringIdolMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_annotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_hw1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_javaconf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_javaconf1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_javaconf4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-22&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.SpringIdolMain_annotation">
     <configuration name="SpringIdolMain_annotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springidol.annotation.SpringIdolMain_annotation" />

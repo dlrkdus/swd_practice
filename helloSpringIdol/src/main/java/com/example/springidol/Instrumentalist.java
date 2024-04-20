@@ -34,9 +34,10 @@ public class Instrumentalist implements Performer, BeanNameAware {
 		return instrument;
 	}
 
-	public void perform() throws PerformanceException {
-		System.out.print("Playing " + song + " : ");
-		instrument.play();
+	public String perform() throws PerformanceException {
+		String perf="Playing " + song + " : ";
+		perf+=instrument.play();
+		return perf;
 	}
 	
 	private String beanName;
