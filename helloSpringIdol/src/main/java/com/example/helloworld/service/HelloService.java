@@ -32,16 +32,16 @@ public class HelloService {
         return perf; //그 performer의 공연을 실행하고 결과(문자열)을 반환
     }
 
-    public String getGreeting() {		// business method
+    public String getGreeting(String requester) {		// business method
         int hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
         if (hour >= 6 && hour <= 10) {
-            return "Good morning! ";
+            return "Good morning! "+requester;
         } else if (hour >= 12 && hour <= 15) {
-            return "Did you have lunch? ";
+            return "Did you have lunch? "+requester;
         } else if (hour >= 18 && hour <= 24) {
-            return "Good evening! ";
+            return "Good evening! "+requester;
         }
-        return "Hello! ";
+        return "Hello! "+requester;
     }
 
 }
