@@ -21,9 +21,12 @@ public class MemberService {
 	private Map<String, MemberInfo> memberMap = new HashMap<String, MemberInfo>();
 
 	public MemberService() {
-		memberMap.put("m1", new MemberInfo("m1", "Scott", "scott@yahoo.com", "scott", false, new Address("01520", "화랑로 12, 성북구", "서울특별시")));
-		memberMap.put("m2", new MemberInfo("m2", "Peter", "peter@hotmail.com", "peter", false, new Address("08290", "대청로 50, 중구", "부산광역시")));
-		memberMap.put("m3", new MemberInfo("m3", "Jain", "jain@gmail.com", "jain", false, new Address("04730", "계룡로 12, 유성구", "대전광역시")));
+		memberMap.put("m1", new MemberInfo("m1", "Scott", "123456!!Scott", "010-1234-5678", "scott@yahoo.com", new Address("01520", "화랑로 12, 성북구", "서울특별시")
+		,"보컬","노래합니다",10,"없음",false));
+		memberMap.put("m2", new MemberInfo("m2", "Peter", "123456!!Peter", "010-1111-2222", "peter@hotmail.com", new Address("08290", "대청로 50, 중구", "부산광역시")
+		,"보컬","노래합니다",10,"없음",false));
+		memberMap.put("m3", new MemberInfo("m3", "Jain", "123456!!Jain", "010-0000-0000", "jain@gmail.com", new Address("04730", "계룡로 12, 유성구", "대전광역시")
+		,"보컬","노래합니다",10,"없음",false));
 		nextMemberId = 4;
 	}
 
@@ -47,10 +50,15 @@ public class MemberService {
 		MemberInfo mi = new MemberInfo(
 							"m" + nextMemberId,		// ID 자동
 							memRegReq.getName(),
-							memRegReq.getEmail(), 
 							memRegReq.getPassword(),
-							memRegReq.isAllowNoti(), 
-							memRegReq.getAddress());
+							memRegReq.getPhone(),
+							memRegReq.getEmail(),
+							memRegReq.getAddress(),
+							memRegReq.getPerformerType(),
+							memRegReq.getPerformTitle(),
+							memRegReq.getPerformTime(),
+							memRegReq.getRequestedTerm(),
+							memRegReq.isOnlinePerform());
 		nextMemberId++;
 		memberMap.put(mi.getId(), mi);
 		return mi.getId();
@@ -65,7 +73,7 @@ public class MemberService {
 
 		mi.setEmail(modReq.getEmail());
 		mi.setName(modReq.getName());
-		mi.setAllowNoti(modReq.isAllowNoti());
+		mi.setOnlinePerform(modReq.isAllowNoti());
 		mi.setAddress(modReq.getAddress());
 	}
 }
