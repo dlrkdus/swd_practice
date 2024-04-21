@@ -1,6 +1,9 @@
 package com.example.member.model;
 
+import org.springframework.format.annotation.NumberFormat;
+
 import javax.validation.constraints.Email;
+import javax.validation.constraints.Max;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 import java.util.Date;
@@ -10,13 +13,19 @@ public class MemberInfo {
 
 	private String id;
 	private String name;
+	@Size(min=8)
+	@Pattern(regexp="^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[@#$%^&+=!])(?=\\S+$)")
 	private String password;
+	@Pattern(regexp="^01\\d{1}-\\d{3,4}-\\d{4}$")
 	private String phone;
+	@Email
 	private String email;
 	private Address address;
 	private String performerType;
 	private String performTitle;
+	@Max(value=20)
 	private int performTime;
+	@Size(max=30)
 	private String requestedTerm;
 	private boolean onlinePerform;
 
