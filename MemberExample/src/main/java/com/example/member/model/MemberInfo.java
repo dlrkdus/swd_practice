@@ -12,6 +12,7 @@ public class MemberInfo {
 	private String name;
 	private String password;
 	private String phone;
+	private String email;
 	private Address address;
 	private String performerType;
 	private String performTitle;
@@ -21,13 +22,14 @@ public class MemberInfo {
 
 
 
-	public MemberInfo(String id, String name, String password, String phone, Address address, String performerType,
+	public MemberInfo(String id, String name, String password, String phone,String email, Address address, String performerType,
 					  String performTitle,int performTime,String requestedTerm, boolean onlinePerform) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.password = password;
 		this.phone = phone;
+		this.email=email;
 		this.address = address;
 		this.performerType = performerType;
 		this.performTitle = performTitle;
@@ -59,6 +61,19 @@ public class MemberInfo {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public String getEmail(){
+		return email;
+	}
+	public void setEmail(String email){
+		this.email=email;
+	}
 
 	public Address getAddress() {
 		return address;
@@ -66,6 +81,13 @@ public class MemberInfo {
 
 	public void setAddress(Address address) {
 		this.address = address;
+	}
+	public String getPerformerType() {
+		return performerType;
+	}
+
+	public void setPerformerType(String performerType) {
+		this.performerType = performerType;
 	}
 
 	public String getPerformTitle() {
@@ -76,26 +98,9 @@ public class MemberInfo {
 		this.performTitle = performTitle;
 	}
 
-	public String getPhone() {
-		return phone;
-	}
-
-	public void setPhone(String phone) {
-		this.phone = phone;
-	}
-
-	public String getPerformerType() {
-		return performerType;
-	}
-
-	public void setPerformerType(String performerType) {
-		this.performerType = performerType;
-	}
-
 	public int getPerformTime(){
 		return performTime;
 	}
-
 	public void setPerformTime(int performTime){
 		this.performTime=performTime;
 	}

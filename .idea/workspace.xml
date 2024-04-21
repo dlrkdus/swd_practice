@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bc85e9d-267b-440f-b523-129d99d22c67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/model/PerformerType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/model/MemberInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/model/MemberInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/config/ApplicationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/config/MvcConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberModRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberModRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberModificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberModificationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberNotFoundException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberRegistRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberRegistRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberRegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberRegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/NotMatchPasswordException.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/NotMatchPasswordException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/MemberInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/MemberInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/OrderInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/OrderInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/service/MemberService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
