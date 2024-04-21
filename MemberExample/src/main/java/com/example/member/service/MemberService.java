@@ -24,9 +24,9 @@ public class MemberService {
 		memberMap.put("m1", new MemberInfo("m1", "Scott", "123456!!Scott", "010-1234-5678", "scott@yahoo.com", new Address("01520", "화랑로 12, 성북구", "서울특별시")
 		,"보컬","노래합니다",10,"없음",false));
 		memberMap.put("m2", new MemberInfo("m2", "Peter", "123456!!Peter", "010-1111-2222", "peter@hotmail.com", new Address("08290", "대청로 50, 중구", "부산광역시")
-		,"보컬","노래합니다",10,"없음",false));
+		,"랩","랩합니다",10,"없음",false));
 		memberMap.put("m3", new MemberInfo("m3", "Jain", "123456!!Jain", "010-0000-0000", "jain@gmail.com", new Address("04730", "계룡로 12, 유성구", "대전광역시")
-		,"보컬","노래합니다",10,"없음",false));
+		,"댄스","땐스댄스",10,"없음",false));
 		nextMemberId = 4;
 	}
 

@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5bc85e9d-267b-440f-b523-129d99d22c67" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/controller/MemberRegistRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/controller/MemberRegistRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/model/MemberInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/model/MemberInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/controller/MemberRegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/controller/MemberRegistrationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/service/MemberService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
