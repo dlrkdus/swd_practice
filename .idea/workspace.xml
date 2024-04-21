@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bc85e9d-267b-440f-b523-129d99d22c67" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/model/PerformerType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/resources/spring/app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/resources/spring/app.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/resources/spring/application-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/resources/spring/application-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/model/MemberInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/src/main/java/com/example/member/model/MemberInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/config/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/config/MvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberModRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberModRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberModificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberModificationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberRegistRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberRegistRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberRegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/MemberRegistrationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/NotMatchPasswordException.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/controller/NotMatchPasswordException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/MemberInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/MemberInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/OrderInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/model/OrderInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/service/MemberService.class" beforeDir="false" afterPath="$PROJECT_DIR$/MemberExample/target/classes/com/example/member/service/MemberService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,24 +53,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SpringIdolMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpringIdolMain_annotation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpringIdolMain_hw1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpringIdolMain_javaconf.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpringIdolMain_javaconf1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SpringIdolMain_javaconf4.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Smart Tomcat.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-22&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SpringIdolMain.executor": "Run",
+    "Application.SpringIdolMain_annotation.executor": "Run",
+    "Application.SpringIdolMain_hw1.executor": "Run",
+    "Application.SpringIdolMain_javaconf.executor": "Run",
+    "Application.SpringIdolMain_javaconf1.executor": "Run",
+    "Application.SpringIdolMain_javaconf4.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Smart Tomcat.Tomcat: MemberExample.executor": "Run",
+    "Smart Tomcat.Unnamed.executor": "Run",
+    "Smart Tomcat.helloSpringIdol.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-22",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/이경섭/Documents/GitHub/swd_practice/MemberExample/src/main/webapp/WEB-INF/view",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
-  <component name="RunManager" selected="Smart Tomcat.Unnamed">
+}]]></component>
+  <component name="RunManager" selected="Smart Tomcat.Tomcat: MemberExample">
     <configuration name="SpringIdolMain_annotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springidol.annotation.SpringIdolMain_annotation" />
       <module name="springIdol2" />
@@ -136,7 +153,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat: MemberExample" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\이경섭\.SmartTomcat\swd_practice\MemberExample" />
+      <option name="contextPath" value="/MemberExample" />
+      <option name="docBase" value="$PROJECT_DIR$/MemberExample/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.87" />
+          <option name="path" value="$PROJECT_DIR$/../../Tomcat/apache-tomcat-9.0.87" />
+          <option name="version" value="9.0.87.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="MemberExample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="catalinaBase" value="C:\Users\이경섭\.SmartTomcat\swd_practice\MemberExample" />
+      <option name="contextPath" value="/helloSpringIdol" />
+      <option name="docBase" value="$PROJECT_DIR$/MemberExample/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.87" />
+          <option name="path" value="$PROJECT_DIR$/../../Tomcat/apache-tomcat-9.0.87" />
+          <option name="version" value="9.0.87.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="-Dfile.encoding=UTF-8" />
+      <module name="MemberExample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="helloSpringIdol" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
       <predefined_log_file id="Tomcat Catalina Log" />
@@ -145,6 +214,9 @@
       <option name="catalinaBase" value="C:\Users\이경섭\.SmartTomcat\swd_practice\helloSpringIdol" />
       <option name="contextPath" value="/helloSpringIdol" />
       <option name="docBase" value="$PROJECT_DIR$/helloSpringIdol/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -165,6 +237,8 @@
       <item itemvalue="Application.SpringIdolMain_javaconf" />
       <item itemvalue="Application.SpringIdolMain_javaconf1" />
       <item itemvalue="Application.SpringIdolMain_javaconf4" />
+      <item itemvalue="Smart Tomcat.Tomcat: MemberExample" />
+      <item itemvalue="Smart Tomcat.helloSpringIdol" />
       <item itemvalue="Smart Tomcat.Unnamed" />
     </list>
     <recent_temporary>
