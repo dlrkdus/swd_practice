@@ -46,7 +46,7 @@ public class MemberService {
 		return null;
 	}
 	
-	public String registerNewMember(MemberRegistRequest memRegReq) {
+	public MemberInfo registerNewMember(MemberRegistRequest memRegReq) {
 		MemberInfo mi = new MemberInfo(
 							"m" + nextMemberId,		// ID 자동
 							memRegReq.getName(),
@@ -61,7 +61,7 @@ public class MemberService {
 							memRegReq.isOnlinePerform());
 		nextMemberId++;
 		memberMap.put(mi.getId(), mi);
-		return mi.getId();
+		return mi; //MemberInfo 객체 반환
 	}
 
 	public void modifyMemberInfo(MemberModRequest modReq) {

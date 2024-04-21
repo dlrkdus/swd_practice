@@ -70,7 +70,7 @@ public class MemberRegistrationController {
 		if (bindingResult.hasErrors()) {
 			return MEMBER_REGISTRATION_FORM;
 		}
-		String mid = memberService.registerNewMember(memRegReq);
+		String mid = memberService.registerNewMember(memRegReq).getId();
 		model.addAttribute("memberId", mid);
 		List<MemberInfo> members=memberService.getMembers();
 		model.addAttribute("members", members); //모든 멤버 정보 리스트
