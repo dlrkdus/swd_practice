@@ -40,23 +40,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SpringIdolMain.executor": "Run",
-    "Application.SpringIdolMain_annotation.executor": "Run",
-    "Application.SpringIdolMain_hw1.executor": "Run",
-    "Application.SpringIdolMain_javaconf.executor": "Run",
-    "Application.SpringIdolMain_javaconf1.executor": "Run",
-    "Application.SpringIdolMain_javaconf4.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Smart Tomcat.Unnamed.executor": "Run",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "openjdk-22",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SpringIdolMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_annotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_hw1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_javaconf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_javaconf1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_javaconf4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-22&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Smart Tomcat.Unnamed">
     <configuration name="SpringIdolMain_annotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springidol.annotation.SpringIdolMain_annotation" />
@@ -145,9 +145,6 @@
       <option name="catalinaBase" value="C:\Users\이경섭\.SmartTomcat\swd_practice\helloSpringIdol" />
       <option name="contextPath" value="/helloSpringIdol" />
       <option name="docBase" value="$PROJECT_DIR$/helloSpringIdol/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
