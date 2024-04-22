@@ -14,7 +14,7 @@ import org.springframework.core.env.Environment;
 
 @Configuration
 @ComponentScan
-@PropertySource({"classpath:app.properties"})
+@PropertySource({"classpath:app.properties"}) //외부 property 파일 지정
 public class SpringConfig {	
 	@Autowired 
 	private Environment env;	    

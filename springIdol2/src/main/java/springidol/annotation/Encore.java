@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class Encore {
 	private Performer encorePerformer;
-
 	@Value("#{springIdol.performers[T(java.lang.Math).random()*springIdol.performers.length]}")
 	public void setEncorePerformer(Performer perfomer) {
 		this.encorePerformer = perfomer;

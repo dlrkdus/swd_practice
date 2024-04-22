@@ -6,7 +6,7 @@
 <body>
 	<div><a href="hello.do">http://.../helloSpringIdol/hello.do</a></div><br>
 	<div><a href="hello.do?name=Jain">http://.../helloSpringIdol/hello.do?name=Jain</a></div>
-	<form method="post" action="performUsingComm">
+	<form method="post" action="perform">
     Performer:
     <select name="id">
     <option value="kenny">kenny</option>

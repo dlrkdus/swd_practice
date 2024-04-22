@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bc85e9d-267b-440f-b523-129d99d22c67" name="Changes" comment="" />
+    <list default="true" id="5bc85e9d-267b-440f-b523-129d99d22c67" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/helloworld/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/java/com/example/helloworld/web/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloSpringIdol/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/helloSpringIdol/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Encore.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Encore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Singer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/Singer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol2/src/main/java/springidol/annotation/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/Piano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/SpringIdol.java" beforeDir="false" afterPath="$PROJECT_DIR$/springIdol3/src/main/java/springidol/SpringIdol.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,28 +45,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SpringIdolMain.executor": "Run",
-    "Application.SpringIdolMain_annotation.executor": "Run",
-    "Application.SpringIdolMain_hw1.executor": "Run",
-    "Application.SpringIdolMain_javaconf.executor": "Run",
-    "Application.SpringIdolMain_javaconf1.executor": "Run",
-    "Application.SpringIdolMain_javaconf4.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Smart Tomcat.Tomcat: MemberExample.executor": "Run",
-    "Smart Tomcat.Unnamed.executor": "Run",
-    "Smart Tomcat.helloSpringIdol.executor": "Run",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "openjdk-22",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/이경섭/Documents/GitHub/swd_practice/MemberExample/src/main/webapp/WEB-INF/view",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SpringIdolMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_annotation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_hw1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_javaconf.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_javaconf1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringIdolMain_javaconf4.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Smart Tomcat.Tomcat: MemberExample.executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Smart Tomcat.helloSpringIdol.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-22&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/이경섭/Documents/GitHub/swd_practice/MemberExample/src/main/webapp/WEB-INF/view&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Smart Tomcat.Tomcat: MemberExample">
+}</component>
+  <component name="RunManager" selected="Smart Tomcat.helloSpringIdol">
     <configuration name="SpringIdolMain_annotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springidol.annotation.SpringIdolMain_annotation" />
       <module name="springIdol2" />
@@ -144,9 +154,6 @@
       <option name="catalinaBase" value="C:\Users\이경섭\.SmartTomcat\swd_practice\MemberExample" />
       <option name="contextPath" value="/MemberExample" />
       <option name="docBase" value="$PROJECT_DIR$/MemberExample/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -170,9 +177,6 @@
       <option name="catalinaBase" value="C:\Users\이경섭\.SmartTomcat\swd_practice\MemberExample" />
       <option name="contextPath" value="/helloSpringIdol" />
       <option name="docBase" value="$PROJECT_DIR$/MemberExample/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -196,9 +200,6 @@
       <option name="catalinaBase" value="C:\Users\이경섭\.SmartTomcat\swd_practice\helloSpringIdol" />
       <option name="contextPath" value="/helloSpringIdol" />
       <option name="docBase" value="$PROJECT_DIR$/helloSpringIdol/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -225,9 +226,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringIdolMain_javaconf" />
         <item itemvalue="Application.SpringIdolMain_annotation" />
         <item itemvalue="Application.SpringIdolMain_hw1" />
-        <item itemvalue="Application.SpringIdolMain_javaconf" />
         <item itemvalue="Application.SpringIdolMain_javaconf4" />
         <item itemvalue="Application.SpringIdolMain_javaconf1" />
       </list>

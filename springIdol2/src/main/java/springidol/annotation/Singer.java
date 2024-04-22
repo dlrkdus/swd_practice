@@ -14,7 +14,7 @@ public class Singer implements Performer {
 	public Instrument instrument;
 	
 	public Singer() {}
-	@Autowired
+	@Autowired // Qualifier 는 정의할 때 말곤 항상 Autowired 와 세트다.
 	public Singer(@Value("Lena Kim")String name,  @Qualifier("someone") Song song) {
 		this.name = name;
 		this.song = song;

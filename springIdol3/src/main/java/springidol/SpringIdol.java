@@ -29,12 +29,10 @@ public class SpringIdol implements TalentCompetition {
 		System.out.println("SpringIdol#setStageSize(): 무대 크기를 " + stageSize + "으로 설정");
 	}
 
-	@PostConstruct
 	public void tunePiano(){
 		piano.tuneInstrument();
 	}
 
-	@PreDestroy
 	public void cleanPiano(){
 		piano.cleanInstrument();
 	}
