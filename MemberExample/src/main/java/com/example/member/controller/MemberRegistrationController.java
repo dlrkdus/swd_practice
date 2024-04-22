@@ -60,14 +60,14 @@ public class MemberRegistrationController {
 	
 	@RequestMapping(method = RequestMethod.POST)
 	public String register(
-			@Valid @ModelAttribute("regReq") MemberRegistRequest memRegReq, //@Valid 로 memRegReq 검사
+			@Valid @ModelAttribute("regReq") MemberRegistRequest memRegReq,
 			BindingResult bindingResult, Model model, SessionStatus sessionStatus) {
 		System.out.println("command 객체: " + memRegReq);
 		
 		/* @Valid 및 Hibernate Validator 사용할 경우 아래 코드 불필요 */
 		// new MemberRegisterValidator().validate(memRegReq, bindingResult);
 				
-		if (bindingResult.hasErrors()) { //bindingResult 에 검사 결과가 자동으로 바인딩된다.
+		if (bindingResult.hasErrors()) {
 			return MEMBER_REGISTRATION_FORM;
 		}
 		String mid = memberService.registerNewMember(memRegReq).getId();

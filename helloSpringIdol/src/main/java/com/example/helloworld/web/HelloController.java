@@ -42,7 +42,7 @@ public class HelloController {
 	}
 
 	@RequestMapping("/performUsingComm")
-	public ModelAndView helloAndPerformUsingComm(PerformRequest request){
+	public String helloAndPerformUsingComm(PerformRequest request, Model model){
 		// PerformRequest 객체를 통해 id와 requester를 전송받음
 		String id = request.getId();
 		String requester = request.getRequester();
@@ -51,11 +51,10 @@ public class HelloController {
 		if (id != null) greeting = greeting + "I'm "+id;
 		String performance=helloService.makePerformance(id);
 
-		ModelAndView mav=new ModelAndView("/perform");
-		mav.addObject("greeting",greeting); //Model 은 addAttribute 라면
-		mav.addObject("performance",performance); //ModelAndView 는 addObject
+		model.addAttribute("greeting",greeting);
+		model.addAttribute("performance",performance);
 
-		return mav; // 이런식으로 ModelAndView 로도 구현 가능
+		return "perform"; //perform.jsp로 넘겨줌. 이때 Model도 함께 넘어감
 	}
 
 }
