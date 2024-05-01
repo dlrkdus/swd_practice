@@ -26,21 +26,21 @@ public class MemberModificationController {
 		this.memberService = memberService;
 	}
 
-	@RequestMapping(method = RequestMethod.GET)
-	public String form(@ModelAttribute("modReq") MemberModRequest modReq,
-			@RequestParam("mid") String memberId) {
-		MemberInfo mi = memberService.getMemberInfo(memberId);
-		if (mi == null)
-			return MEMBER_NOT_FOUND_VIEW;
-
-		modReq.setId(mi.getId());
-		modReq.setName(mi.getName());
-		modReq.setAddress(mi.getAddress());
-		modReq.setEmail(mi.getEmail());
-		modReq.setAllowNoti(mi.isAllowNoti());
-
-		return MEMBER_MODIFICATION_FORM;
-	}
+//	@RequestMapping(method = RequestMethod.GET)
+//	public String form(@ModelAttribute("modReq") MemberModRequest modReq,
+//			@RequestParam("mid") String memberId) {
+//		MemberInfo mi = memberService.getMemberInfo(memberId);
+//		if (mi == null)
+//			return MEMBER_NOT_FOUND_VIEW;
+//
+//		modReq.setId(mi.getId());
+//		modReq.setName(mi.getName());
+//		modReq.setAddress(mi.getAddress());
+//		modReq.setEmail(mi.getEmail());
+//		modReq.setAllowNoti(mi.isAllowNoti());
+//
+//		return MEMBER_MODIFICATION_FORM;
+//	}
 
 	@RequestMapping(method = RequestMethod.POST)
 	public String modify(@Valid @ModelAttribute("modReq") MemberModRequest modReq, Errors errors) {

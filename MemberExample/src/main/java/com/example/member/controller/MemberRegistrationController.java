@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -17,7 +18,11 @@ import com.example.member.service.MemberService;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 @Controller
 @RequestMapping("/member/register")
@@ -37,9 +42,9 @@ public class MemberRegistrationController {
 	public MemberRegistRequest formBacking(HttpServletRequest request) {
 		MemberRegistRequest memRegReq = new MemberRegistRequest();
 		Address address = new Address();
-		address.setAddress1("서울");
+		address.setAddress2("서울시");
 		memRegReq.setAddress(address);
-		memRegReq.setPerformTime(20);
+		memRegReq.setPerformTime(10);
 		return memRegReq;
 	}
 	
@@ -58,23 +63,37 @@ public class MemberRegistrationController {
 	}
 	*/
 	
+
+
 	@RequestMapping(method = RequestMethod.POST)
 	public String register(
 			@Valid @ModelAttribute("regReq") MemberRegistRequest memRegReq,
 			BindingResult bindingResult, Model model, SessionStatus sessionStatus) {
 		System.out.println("command 객체: " + memRegReq);
-		
-		/* @Valid 및 Hibernate Validator 사용할 경우 아래 코드 불필요 */
-		// new MemberRegisterValidator().validate(memRegReq, bindingResult);
-				
+
 		if (bindingResult.hasErrors()) {
+			System.out.println("오류 발생");
+			List<ObjectError> errors = bindingResult.getAllErrors();
+			for (ObjectError error : errors) {
+				System.out.println("Error: " + error.getDefaultMessage());
+			}
+
 			return MEMBER_REGISTRATION_FORM;
 		}
+
 		String mid = memberService.registerNewMember(memRegReq).getId();
 		model.addAttribute("memberId", mid);
 		List<MemberInfo> members=memberService.getMembers();
 		model.addAttribute("members", members); //모든 멤버 정보 리스트
+
+		// 현재 날짜와 시간을 "yyyy-MM-dd HH:mm:ss" 형식으로 변환하여 model에 추가
+		LocalDateTime now = LocalDateTime.now();
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+		String formattedDateTime = now.format(formatter);
+		model.addAttribute("reqTime", formattedDateTime); // 현재 날짜 및 시간 추가
+
 		sessionStatus.setComplete(); // 세션 종료
 		return "member/registered";
 	}
+
 }

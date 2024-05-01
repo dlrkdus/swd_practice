@@ -6,64 +6,84 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>회원 가입2</title>
+	<title>SpringIdol 오디션 지원</title>
 </head>
 <body>
-	<form:form modelAttribute="regReq" method="post">
-		<label for="email">이메일</label>: 
-		<form:input path="email" />
-		<form:errors path="email" />
-		<br/>
+<form:form modelAttribute="regReq" method="post">
 
-		<label for="name">이름</label>: 
-		<form:input path="name" />
-		<form:errors path="name" />
-		<br/>
+	<label for="name">이름</label>:
+	<form:input path="name" />
+	<form:errors path="name" />
+	<br/>
 
-		<label for="password">암호</label>: 
-		<form:password path="password" showPassword="true" />  <!-- 기존 password 입력값 출력 -->
-		<form:errors path="password" />
-		<br/>
+	<label for="password">비밀번호</label>:
+	<form:password path="password" showPassword="true" />
+	<form:errors path="password" />
+	<br/>
 
-		<label for="confirmPassword">확인</label>: 
-		<form:password path="confirmPassword" showPassword="true"/> 
-		<form:errors path="confirmPassword" />
-		<form:errors path="samePasswordConfirmPassword" /> 
-			<!-- MemberRestrationController 내의 @AssertTrue에 의한 검증 오류 출력:
-			 	MemberRestrationController에 samePasswordConfirmPassword에 대한 
-			 	getter method인 isSamePasswordConfirmPassword()가 정의있기 때문에  
-			 	위 path 속성에 samePasswordConfirmPassword를 지정 가능함 -->
-		<br/>
+	<label for="confirmPassword">비밀번호 확인</label>:
+	<form:password path="confirmPassword" showPassword="true"/>
+	<form:errors path="confirmPassword" />
+	<form:errors path="samePasswordConfirmPassword" />
+	<br/>
 
-		<label>주소</label><br/>
-		- 주소1: 
-		<form:input path="address.address1" />
-		<form:errors path="address.address1" />
-		<br/>
-		- 주소2:
-		<form:input path="address.address2" />
-		<form:errors path="address.address2" />
-		<br/>
-		- 우편번호:
-		<form:input path="address.zipcode" size="5"/>
-		<form:errors path="address.zipcode" />
-		<br/>
+	<label for="phone">휴대폰 번호</label>:
+	<form:input path="phone" placeholder="예: 01x-1234-5678"/>
+	<form:errors path="phone"/>
+	<br/>
 
-		<label for="allowNoti"> 
-			<form:checkbox path="allowNoti" />이메일을 수신합니다.
-		</label>
-		<br/>
-		
-		<label for="birthday">생일</label>: 형식: YYYYMMDD, 예: 20180401
-		<form:input path="birthday" />
-		<form:errors path="birthday" />
-		<br/>
-		<%-- 
-			<input name="birthday" value='<fmt:formatDate value="${regReq.birthday}" pattern="yyyyMMdd" />'/>
-		--%>
-		
-		<input type="submit" value="가입" />
+	<label for="email">이메일</label>:
+	<form:input path="email" placeholder="예: abc@gmail.com"/>
+	<form:errors path="email" />
+	<br/>
 
-	</form:form>
+	<!-- 주소 필드 -->
+	<label for="address.address1">주소: street </label>
+	<form:input path="address.address1" />
+	<form:errors path="address.address1"/>
+
+	<label for="address.address2">city </label>
+	<form:input path="address.address2" />
+	<form:errors path="address.address2" />
+	<label for="address.zipcode">zipcode </label>
+	<form:input path="address.zipcode" />
+	<form:errors path="address.zipcode" />
+	<br/>
+
+	<!--지원 분야: 보컬, 랩, 댄스, 연기, 기타 중 선택 (default: 보컬)
+✓ drop-down menu(<select />)나 radio button(<input type=”radio” />) 이용-->
+	<label for="performerType">지원 분야:</label>
+	<form:select path="performerType">
+		<form:option value="보컬">보컬</form:option>
+		<form:option value="랩">랩</form:option>
+		<form:option value="댄스">댄스</form:option>
+		<form:option value="연기">연기</form:option>
+		<form:option value="기타">기타</form:option>
+	</form:select>
+	<form:errors path="performerType"/>
+
+	<br/>
+
+	<label for="performTitle">공연/연기명</label>:
+	<form:input path="performTitle" />
+	<form:errors path="performTitle"/>
+	<br/>
+
+	<label for="performTime">공연 시간</label>:
+	<form:input path="performTime" />
+	<form:errors path="performTime"/>
+	<br/>
+
+	<label for="requestedTerm">요청 사항</label>:
+	<form:input path="requestedTerm" />
+	<form:errors path="requestedTerm"/>
+	<br/>
+
+	<label>온라인 공연
+	<form:checkbox path="onlinePerform"/>
+	</label>
+	<br/><br/>
+	<input type="submit" value="신청" />
+</form:form>
 </body>
 </html>

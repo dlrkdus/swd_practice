@@ -1,5 +1,6 @@
 package com.example.member.controller;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 import javax.validation.Valid;
@@ -10,19 +11,22 @@ import org.springframework.format.annotation.DateTimeFormat;
 import com.example.member.model.Address;
 
 public class MemberRegistRequest {
+
+	private LocalDate reqTime;
 	@NotBlank
 	private String name;
 
+	//비밀번호는 최소 8자 이상, 영문, 숫자, 특수문자를 하나 이상씩 포함해야 함
 	@NotEmpty
 	@Size(min=8)
-	@Pattern(regexp="^(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[@#$%^&+=!])(?=\\S+$)")
+	@Pattern(regexp="^(?=.*[a-zA-Z])(?=.*\\d)(?=.*[@#$%^&+=!]).+$")
 	private String password;
 
 	@Pattern(regexp="^01\\d{1}-\\d{3,4}-\\d{4}$")
 	private String phone;
 
 	@NotEmpty
-	@Email
+	@Email //휴대폰번호와 이메일은 정해진 형식을 따라야 함
 	private String email;
 
 	@Valid
@@ -32,13 +36,13 @@ public class MemberRegistRequest {
 
 	private String performTitle;
 
-	@Max(value=20)
+	@Max(value=20) // 기본 시간은 10분이고, 최대 20분까지 가능
 	private int performTime;
 
 	@Size(max=30)
-	private String requestedTerm;
+	private String requestedTerm; //그 밖의 정보 추가 (요청사항 추가했습니다.)
 
-	private boolean onlinePerform;
+	private boolean onlinePerform; // true/false 입력 (default: false)
 
 	@NotEmpty 
 	private String confirmPassword;

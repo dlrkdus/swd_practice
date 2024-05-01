@@ -11,6 +11,7 @@
         <module name="springIdol3" />
         <module name="springIdol2" />
         <module name="helloSpringIdol" />
+        <module name="memberExample-BeanValidApi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
